@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  background: #03D4E3;
+  background: linear-gradient(to bottom right, #03D4E3, #B3651B);
+}
+
+.container {
+  margin: 100px auto;
+  width: 850px;
+  height: 400px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brick {
+  outline: 2px solid black;
+  outline-offset: -1px;
+}
+
+.delete {
+  visibility: hidden;
+}
+
+.reserved {
+  font-size: 13px;
+  text-align: center;
+  margin: 5px 0;
+}/*# sourceMappingURL=style.css.map */
